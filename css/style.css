@@ -1,0 +1,33 @@
+
+.border1{
+  border:#9cc543 2px solid;
+  color:#9cc543;
+  margin-right: -4px;
+}
+
+#table1 {
+  width:100%;
+  transform: translate(4px, -6px);
+}
+.table_h tr th{
+  border: none;
+}
+.table_h, th, td  {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+#table2 {
+  border-collapse: collapse;
+  border-spacing: 4px;
+  transform: translate(4px, -6px);
+}
+#table2 tr td {
+  border: none;
+}
+.clr{
+  border: 5px solid red;
+}
+tr:nth-child(odd) {
+  background-color: #dddddd;
+}
+
